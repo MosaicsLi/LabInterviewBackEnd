@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "outDir": "dist",
+    "rootDir": "./",
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "types": ["node"],
+
+    "sourceMap": true,
+    "removeComments": true,
+
+    "incremental": true,
+
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+
+  "include": ["LabInterviewServer.ts"],
+  "exclude": ["node_modules", "dist"]
+}
