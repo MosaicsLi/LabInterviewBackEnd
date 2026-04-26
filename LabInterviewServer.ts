@@ -1,6 +1,5 @@
 import express from "express";
-import path from "path";
-import cors from 'cors'; // 1. 引入 cors
+import cors from "cors";
 import axios from "axios";
 import dotenv from "dotenv";
 
