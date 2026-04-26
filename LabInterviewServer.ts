@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+import cors from 'cors'; // 1. 引入 cors
 import axios from "axios";
 import dotenv from "dotenv";
 
@@ -7,6 +8,7 @@ dotenv.config();
 
 async function startServer() {
   const app = express();
+  app.use(cors());
   const PORT = 3001;
 
   app.use(express.json());
